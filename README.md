@@ -22,6 +22,7 @@ This is a React project bootstrapped with Vite. The application is a simple dash
 - **Tailwind CSS**: Utility-first CSS framework for styling 🎨.
 - **DaisyUI**: Tailwind CSS components for UI elements 🧩.
 - **React Toastify**: Notifications and alerts 📢.
+- **Framer Motion**: Animation library for React 🌀.
 
 ## 📦 Installation
 
