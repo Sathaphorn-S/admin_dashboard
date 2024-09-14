@@ -11,6 +11,7 @@ This is a React project bootstrapped with Vite. The application is a simple dash
 - **Real-time Clock**: A clock that displays the current time on the dashboard ⏰.
 - **Notifications**: Provides real-time feedback for actions like saving a user using React Toastify 🎉.
 - **Authentication**: Mock authentication flow with hardcoded credentials for demo purposes 🔐.
+- **Framer Motion**: Animation library for React 🌀.
 
 ## 🛠 Tech Stack
 
@@ -42,63 +43,28 @@ This is a React project bootstrapped with Vite. The application is a simple dash
 
 Open your browser and visit: http://localhost:5173/
 
-🧑‍💻 How to Use
+## 🧑‍💻 How to Use
 
-Login Page:
+**Login Page**: 
 
-Use the following credentials:
+- **Use the following credentials**:
+   
+   - **Username**: admin
+   - **Password**: 123456
 
-Username: admin
-Password: 123456
+- **Once logged in, you'll be redirected to the dashboard**.
 
-Once logged in, you'll be redirected to the dashboard.
+**Dashboard Page**:
 
-Dashboard Page:
+- **Search Users**: Use the search bar to filter users by their username 🔍.
 
-Search Users: Use the search bar to filter users by their username 🔍.
+- **View Details**: Click on any user to view more detailed information 👤.
 
-View Details: Click on any user to view more detailed information 👤.
+- **Edit Details**: Click the "Edit" button to modify a user’s information. Click "Save" to apply changes ✏️💾.
 
-Edit Details: Click the "Edit" button to modify a user’s information. Click "Save" to apply changes ✏️💾.
-
-Logout: Click the logout button at the top right to return to the login page 🚪.
-
-
-🌟 Project Structure
+- **Logout**: Click the logout button at the top right to return to the login page 🚪.
 
 
-📦 src
- ┣ 📂components
- ┃ ┣ 📜BackgroundVideo.tsx    # Displays background video 🎞️
- ┃ ┣ 📜Clock.tsx             # Displays current time ⏰
- ┃ ┣ 📜UserDetail.tsx         # Shows detailed user info and edit form 📝
- ┃ ┣ 📜UserList.tsx           # Renders the list of users 📜
- ┣ 📂data
- ┃ ┗ 📜mockData.ts            # Mock user data 🗂️
- ┣ 📂pages
- ┃ ┣ 📜Dashboard.tsx          # Main dashboard page 📊
- ┃ ┗ 📜Login.tsx              # Login page 🔑
- ┣ 📂routes
- ┃ ┗ 📜AppRoutes.tsx          # Route handling for the app 🛣️
- ┗ 📜main.tsx                 # Entry point of the application 🚪
+## 👩‍💻 Author
 
-
-✨ Dependencies
-
-React: ^18.0.0 ⚛️
-
-React Router DOM: ^6.0.0 🚪
-
-Vite: ^4.0.0 ⚡
-
-TypeScript: ^5.0.0 📝
-
-Tailwind CSS: ^3.0.0 🎨
-
-DaisyUI: ^3.0.0 🧩
-
-React Toastify: ^9.1.1 📢
-
-👩‍💻 Author
-
-Sathaphorn Sinlapee
+**Sathaphorn Sinlapee**
