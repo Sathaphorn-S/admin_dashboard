@@ -32,10 +32,12 @@ This is a React project bootstrapped with Vite. The application is a simple dash
 
 2. Install the dependencies:
 
+   ```bash
     npm install
 
 2. Start the development server:
 
+   ```bash
     npm run dev
 
 Open your browser and visit: http://localhost:5173/
