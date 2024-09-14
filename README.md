@@ -47,6 +47,7 @@ Open your browser and visit: http://localhost:5173/
 Login Page:
 
 Use the following credentials:
+
 Username: admin
 Password: 123456
 
@@ -55,12 +56,16 @@ Once logged in, you'll be redirected to the dashboard.
 Dashboard Page:
 
 Search Users: Use the search bar to filter users by their username 🔍.
+
 View Details: Click on any user to view more detailed information 👤.
+
 Edit Details: Click the "Edit" button to modify a user’s information. Click "Save" to apply changes ✏️💾.
+
 Logout: Click the logout button at the top right to return to the login page 🚪.
 
 
 🌟 Project Structure
+
 
 📦 src
  ┣ 📂components
@@ -79,12 +84,21 @@ Logout: Click the logout button at the top right to return to the login page �
 
 
 ✨ Dependencies
+
 React: ^18.0.0 ⚛️
+
 React Router DOM: ^6.0.0 🚪
+
 Vite: ^4.0.0 ⚡
+
 TypeScript: ^5.0.0 📝
+
 Tailwind CSS: ^3.0.0 🎨
+
 DaisyUI: ^3.0.0 🧩
+
 React Toastify: ^9.1.1 📢
+
 👩‍💻 Author
+
 Sathaphorn Sinlapee
