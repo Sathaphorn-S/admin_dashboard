@@ -30,7 +30,7 @@ This is a React project bootstrapped with Vite. The application is a simple dash
 
    ```bash
    git clone https://github.com/Sathaphorn-S/admin_dashboard.git
-   cd admin_dashboard-main
+   cd admin_dashboard
 
 2. Install the dependencies:
 
