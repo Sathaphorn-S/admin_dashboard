@@ -1,4 +1,4 @@
-# 🏆 Work Evaluation Dashboard
+# Admin Dashboard
 
 This is a React project bootstrapped with Vite. The application is a simple dashboard for managing users, with features such as searching, editing, and displaying detailed user information.
 
@@ -41,11 +41,6 @@ This is a React project bootstrapped with Vite. The application is a simple dash
     npm run dev
 
 Open your browser and visit: http://localhost:5173/
-
-⚙️ Available Scripts
-npm run dev : Start the Vite development server 🚀.
-npm run build : Build the project for production 📦.
-npm run preview : Preview the production build locally 👁️.
 
 🧑‍💻 How to Use
 
