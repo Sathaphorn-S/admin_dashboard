@@ -11,7 +11,6 @@ This is a React project bootstrapped with Vite. The application is a simple dash
 - **Real-time Clock**: A clock that displays the current time on the dashboard ⏰.
 - **Notifications**: Provides real-time feedback for actions like saving a user using React Toastify 🎉.
 - **Authentication**: Mock authentication flow with hardcoded credentials for demo purposes 🔐.
-- **Framer Motion**: Animation library for React 🌀.
 
 ## 🛠 Tech Stack
 
@@ -57,7 +56,7 @@ Open your browser and visit: http://localhost:5173/
 
 **Dashboard Page**:
 
-- **Search Users**: Use the search bar to filter users by their username 🔍.
+- **Search Users**: Use the search bar to filter users by their name or username 🔍.
 
 - **View Details**: Click on any user to view more detailed information 👤.
 
