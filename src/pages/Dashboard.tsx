@@ -4,8 +4,8 @@ import "react-toastify/dist/ReactToastify.css";
 import Clock from "../components/Clock";
 import { mockUser, User } from "../data/mockData";
 import { useNavigate } from "react-router-dom";
-import UserDetail from "../components/UserDetail"; // New import
-import UserList from "../components/UserList"; // New import
+import UserDetail from "../components/UserDetail";
+import UserList from "../components/UserList";
 
 interface DashboardProps {
   username: string;
@@ -30,8 +30,8 @@ const Dashboard = ({ username }: DashboardProps) => {
     setSearchTerm(e.target.value);
   };
 
-  // Handle form change
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // Handle form change (generic for input and select)
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     if (selectedUser && isEditing) {
       setSelectedUser({ ...selectedUser, [name]: value });
