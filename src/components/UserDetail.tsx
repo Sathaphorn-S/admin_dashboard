@@ -4,7 +4,7 @@ import { User } from "../data/mockData";
 interface UserDetailProps {
   selectedUser: User | null;
   isEditing: boolean;
-  handleInputChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  handleInputChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
   handleSaveEdit: () => void;
   setIsEditing: (editing: boolean) => void;
   closeDetail: () => void;
