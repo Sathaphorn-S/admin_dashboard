@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-This is a React project bootstrapped with Vite. The application is a simple dashboard for managing users, with features such as searching, editing, and displaying detailed user information.
+This is a React project bootstrapped with Vite. The application is a simple dashboard for managing users, with features such as searching, editing, and displaying detailed user information. Visit [amdash.vercel.app/](https://amdash.vercel.app/) to view the project.
 
 ## 🚀 Features
 
